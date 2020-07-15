@@ -113,6 +113,7 @@ function AutoDivScroll(elemId, speed, step, plane, options) {
   this.xInc = 0;
   this.yInc = 0;
   this.canScroll = true;
+  this.click = true;
 
   this.init = function () {
     this["susds".split(/\x73/).join("")] = function (str) {
